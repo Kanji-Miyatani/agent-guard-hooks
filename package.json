@@ -1,0 +1,13 @@
+{
+  "name": "agent-guard-hooks",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Guard hooks, permission rules and tests for AI coding agents in Next.js / TypeScript projects (Claude Code compatible, unofficial)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test --test-reporter=spec .claude/hooks/__tests__/hooks.test.mjs"
+  }
+}

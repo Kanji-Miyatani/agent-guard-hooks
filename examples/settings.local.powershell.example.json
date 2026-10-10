@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "PowerShell(npm run lint *)",
+      "PowerShell(npm run typecheck *)",
+      "PowerShell(npm run test *)",
+      "PowerShell(npm test *)",
+      "PowerShell(npm run build *)",
+      "PowerShell(pnpm lint *)",
+      "PowerShell(pnpm typecheck *)",
+      "PowerShell(pnpm test *)",
+      "PowerShell(pnpm build *)",
+      "PowerShell(pnpm run lint *)",
+      "PowerShell(pnpm run typecheck *)",
+      "PowerShell(pnpm run test *)",
+      "PowerShell(pnpm run build *)",
+      "PowerShell(git status *)",
+      "PowerShell(git diff *)",
+      "PowerShell(git log *)",
+      "PowerShell(git show *)",
+      "PowerShell(git branch --show-current)",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "PowerShell(pnpm --version)"
+    ],
+    "ask": [
+      "PowerShell(git push *)",
+      "PowerShell(npm install *)",
+      "PowerShell(npm i *)",
+      "PowerShell(npm uninstall *)",
+      "PowerShell(pnpm add *)",
+      "PowerShell(pnpm install *)",
+      "PowerShell(pnpm remove *)",
+      "PowerShell(npx *)",
+      "PowerShell(pnpm dlx *)",
+      "PowerShell(curl *)",
+      "PowerShell(wget *)",
+      "PowerShell(Invoke-WebRequest *)",
+      "PowerShell(Invoke-RestMethod *)",
+      "PowerShell(gh pr create *)",
+      "PowerShell(gh pr merge *)",
+      "PowerShell(vercel *)",
+      "PowerShell(railway *)",
+      "PowerShell(git * --output*)"
+    ],
+    "deny": [
+      "PowerShell(sudo *)",
+      "PowerShell(git push --force *)",
+      "PowerShell(git push -f *)",
+      "PowerShell(git reset --hard *)",
+      "PowerShell(npm publish *)",
+      "PowerShell(pnpm publish *)"
+    ]
+  }
+}

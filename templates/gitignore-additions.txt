@@ -1,0 +1,9 @@
+
+# ---- Claude Code（導入キットで追加） ----
+# 個人用の設定とメモはコミットしない
+.claude/settings.local.json
+CLAUDE.local.md
+# 環境変数ファイル（.env.example だけはコミットする）
+.env
+.env.*
+!.env.example
